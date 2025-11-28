@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  font-family: "Epunda Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-links a:hover {
+    text-decoration: underline;
+   color: white;
+}
+.nav-icons{
+    display: none;
+   
+}
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    background-color:grey;
+    padding-top: 20px;
+    transition: 1s;
+    cursor: pointer;
+    
+} 
+.sidenav-link {
+    padding: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    
+} 
+.sidebar-link a   {
+    padding: 10px ;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+} 
+.sidebar-link a:hover {
+    text-decoration: underline;
+    background-color: #575757;
+}
+.header{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    background-color: #f4f4f4;
+    
+}
+.header-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.service-container-2{
+    background-color: #f2f4f7;
+    border-radius: 5px ;
+    padding: 20px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: blueviolet;
+    left: 18%;
+    top: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+
+ 
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    border:black;
+    margin-top: 20px;
+}
+.news button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+}
+.product-section{
+  margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 90%;
+}
+.product-search input{
+   outline: none;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.product-box{
+    flex-basis: 20%;
+    text-align: center;
+}
+.product-box img{
+    border-radius:10px ;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.contact-section {
+  background-color: #222;          
+  color: white;                   
+  margin-left: 200px;   
+  margin-right: 200px;   
+  margin-top: 20px;  
+  margin-bottom: 20px;     
+  padding: 30px;
+  border-radius: 10px;
+ 
+}
+
+
+.contact-section h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.contact-section label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-section button {
+  margin-top: 20px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contact-section button:hover {
+  background-color: #0b5ed7;
+}
+
+
+
+
+    
+ 
+
+
+
+@media (max-width: 700px) {
+    .navbar-links {
+        display: none;
+    }
+    .nav-icons {
+        display: block;
+        color: blue;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .header-image {
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+
+}

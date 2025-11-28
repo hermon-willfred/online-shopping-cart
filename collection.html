@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shpping store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Hermon Store</h1>
+
+        <div class="navbar-links">
+           <p class="navbar-link" ><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="nav-icons" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <p style="text-align:right ;" onclick="closeNav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="sidebar-link">
+            <p class="sidenav-link" ><a href="index.html">Home</a></p>
+            <p class="sidenav-link"><a href="collection.html">Collections</a></p>
+            <p class="sidenav-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search"placeholder="Search products...">
+            <i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="products" id="product">
+    <div class="product-box">
+        <img src="img/clothes.jpg" width="200px" height="200px" alt="clothes">
+        <p>clothes</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/shoes.jpg" width="200px" height="200px" alt="shoes">
+        <p>shoes</p>            
+    </div>
+    <div class="product-box">       
+        <img src="img/accessories.jpg" width="200px" height="200px" alt="accessories">
+        <p>accessories</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/watch.jpg" width="200px" height="200px" alt="watches">
+        <p>watches</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/download.jpg" width="200px" height="200px" alt="perfume">
+        <p>perfume</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/download (1).jpg" width="200px" height="200px" alt="shampoo">
+        <p>shampoo</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/serum.jpg" width="200px" height="200px" alt="serum">
+        <p>serum</p>
+    </div>
+    <div class="product-box">   
+        <img src="img/download (2).jpg" width="200px" height="200px" alt="airpods">
+        <p>airpods</p>
+    </div>
+</div>
+
+    </div>
+    
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h3 class="headingText">Hermon Store</h3>
+            <p>Your one-stop shop for fashion and accessories.</p>
+        </div>
+        <div class="footer-icon-container">
+            <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+            <i class="fa-brands fa-twitter" style="color: white;"></i>
+            <i class="fa-brands fa-instagram" style="color: white;"></i>
+        </div>
+        <p>@2025 Hermon Store.com</p>
+
+    </div>
+    <script src="collection.js"></script>
+
+
+
+</body>
+
+</html>
